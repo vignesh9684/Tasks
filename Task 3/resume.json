@@ -1,0 +1,45 @@
+{
+  "Basic Information": [{
+    "name": "S.Vignesh",
+    "email": "Vignesh@gmail.com",
+    "phone": "(+91)1234567890",
+    "location": [{
+      "address": "Chengalpattu",
+      "postalCode": "603101",
+      "city": "chennai"
+    }],
+    "profiles": [{
+      "network": "Linked-In",
+      "username": "Vicky",
+      "url": "https://twitter.com/Vicky"
+    }]
+  }],
+  "work": [{
+    "name": "GCIT",
+    "position": "QA Tester",
+    "startDate": "2020-02-01",
+    "endDate": "Still"
+  }],
+  "education": [{
+    "institution": "Madras University",
+    "Department": "Computer Science and Technology",
+    "Degree": "Master",
+    "startDate": "2014-06-01",
+    "endDate": "2019-06-01",
+    "score": "7.3"
+  }],
+  "skills": [{
+      "1" :"JavaScript",
+      "2": "Manual Testing",
+      "3": "Python",
+      "4": "Automation",
+      "5" :"Postman",
+      "6": "Jira",
+      "7": "My Sql"
+  }],
+  "Known languages": ["Tamil","English"],
+  
+  "Sports": ["Chess","foot ball"]
+  
+  
+}

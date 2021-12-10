@@ -1,0 +1,119 @@
+
+FOR LOOP
+
+var data = [{
+  
+"Name" : "S.Vignesh",
+  
+"Age" : "24",
+  
+"Degree" : "M.SC CS",
+
+"College" : "Madras University"
+
+}];
+
+
+for (var i=0; i<data.length; i++)
+
+{
+    
+console.log(data[i]);
+
+}
+
+Output:
+{ Name: 'S.Vignesh',
+  Age: '24',
+  Degree: 'M.SC CS',
+  College: 'Madras University' }
+//////
+
+FOR IN LOOP
+
+
+var data = {
+  
+"Name" : "S.Vignesh",
+  
+"Age" : "24",
+  
+"Degree" : "M.SC CS",
+
+"College" : "Madras University"
+
+};
+
+
+for (var pr in data)
+
+{
+    
+console.log(pr,":",data[pr]);
+
+}
+
+Output:
+Name : S.Vignesh
+Age : 24
+Degree : M.SC CS
+College : Madras University
+
+////////////////////////////
+
+FOR OF LOOP
+
+var data = [{
+  
+"Name" : "S.Vignesh",
+  
+"Age" : "24",
+  
+"Degree" : "M.SC CS",
+
+"College" : "Madras University"
+
+}];
+
+
+for (var pr in data)
+
+{
+    
+console.log(pr);
+
+}
+
+Output:
+{ Name: 'S.Vignesh',
+  Age: '24',
+  Degree: 'M.SC CS',
+  College: 'Madras University' }
+
+///////////////////////////////
+
+FOREACH LOOP
+
+var data = [{
+  
+"Name" : "S.Vignesh",
+  
+"Age" : "24",
+  
+"Degree" : "M.SC CS",
+
+"College" : "Madras University"
+
+}];
+
+
+data.forEach(element => console.log(element));
+
+Output:
+{ Name: 'S.Vignesh',
+  Age: '24',
+  Degree: 'M.SC CS',
+  College: 'Madras University' }
+
+/////////////////////////////////////
+
